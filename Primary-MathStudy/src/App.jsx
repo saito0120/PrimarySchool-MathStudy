@@ -8,6 +8,8 @@ const texts = [
 ]
 
 function TitleScreen() {
+  const [started, setStarted] = useState(fakse);
+  const [fadeOut, setFadeOut] = useState(fakse);
   const [showDescriptions, setShowDescriptions] = useState(false);
   const [descIndex, setDescIndex] = useState(0);
 
