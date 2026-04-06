@@ -1,14 +1,16 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import SelectionScreen from "./selection.jsx";
-import TitleScreen from "./Title.jsx";  
+import Chapter from "./Chapter";
+import Selection from "./selection.jsx";
+import Title from "./Title.jsx";  
 
 function App() {
   return (
     <HashRouter>
       <Routes>
 
-        <Route path="/" element={<TitleScreen />} />
-        <Route path="/selection" element={<SelectionScreen />} />
+        <Route path="/" element={<Title />} />
+        <Route path="/selection" element={<Selection />} />
+        <Route path="/Chapter" element={<Chapter />} />
 
       </Routes>
     </HashRouter>

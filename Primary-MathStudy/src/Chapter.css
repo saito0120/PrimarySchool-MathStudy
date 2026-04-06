@@ -1,0 +1,45 @@
+html, body, #root{
+  width: 100%;    /*要素の横幅を画面いっぱいにする*/
+  height: 100%;   /*要素の高さを画面いっぱいにする*/
+  margin: 0;      /*要素の外側余白を0にする*/
+  padding: 0;     /*要素の内側余白を0にする*/
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* 上から配置 */
+    height: auto;               /* 画面全体に */
+    width: 100vw;                /* 横幅も画面いっぱい */
+    background-color: #fff8e7;
+    text-align: center;
+    margin: 0;                    /* 余白なし */
+    padding: 0;                   /* 余白なし */
+    box-sizing: border-box;       /* 内側のサイズ調整も含める */
+    background-color: #e0f7fa;
+}
+
+body h1 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+button {
+  width: 80%;
+  padding: 15px 20px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  border: none;
+  background-color: #add8e6;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background-color: #87ceeb;
+  transform: scale(1.05);
+}

@@ -8,7 +8,7 @@ const texts = [
   "計算や図形、楽しく復習しよう！",
 ]
 
-function TitleScreen() {
+function Title() {
   const [step, setStep] = useState(0); 
   const navigate = useNavigate();
 
@@ -55,4 +55,4 @@ function TitleScreen() {
 
 }
 
-export default TitleScreen;
+export default Title;
